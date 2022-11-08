@@ -1,0 +1,76 @@
+body
+{
+
+    background-repeat: no-repeat, repeat;
+   background-image: url("../assets/sss.jpg");
+   background-attachment: fixed;
+  background-size: cover;
+
+}
+.title
+{
+  font-family: 'Bebas Neue', cursive;
+  margin: 20px;
+  text-align:center;
+  color: #DAE2B6;
+}
+
+.logo
+{
+    margin-left: 15px;
+    border-radius: 50%;
+}
+
+.icon
+{
+  color: #E8DFCA;
+  margin-left: 1360px;
+  margin-right: 30px;
+}
+.card
+{
+  margin-bottom: 12px;
+}
+#pop
+{
+  border-radius: 10%;
+  text-align: center;
+  margin: -10px auto;
+  padding: 100px;
+  background-color: #513252;
+  width: 500px;
+  height: 600px;
+  display: none;
+  color: white;
+  padding: 30px;
+  animation-name: example;
+  animation-duration: 1s ;
+
+}
+
+.label
+{
+  font-family: 'Bebas Neue', cursive;
+  margin-bottom: 5px;
+  width: 200px;
+}
+.ip
+{
+  margin: 5px auto;
+  width: 130px;
+  
+}
+.btn{
+  margin: 0 10px;
+}
+
+
+
+@keyframes example {
+  from {
+    margin-left: 0;
+  }
+  to {
+    margin-left: 518px;
+}
+}
