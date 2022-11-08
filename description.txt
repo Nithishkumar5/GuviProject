@@ -1,0 +1,17 @@
+---------------------------------------------DESCRIPTION------------------------------------
+
+Database name: users
+
+fullname
+emailid
+password
+id
+
+Database name: profile
+
+id
+age
+bio
+city
+
+Once created the table name which is mentioned above database is done with that ---- we can use profile page with it 
